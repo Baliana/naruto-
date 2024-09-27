@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+ a {
+    text-decoration: none;
+    color: inherit;
+}
+ul, ol li{
+    list-style: none;
+}
+menu ul{
+    display: flex;*/
+    
+}
+/* dim do reset */
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 80px;
+    background-image: url('./imagens/naruto.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.folhas{
+    background-image: url('./imagens/pngwing.com.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+header{
+    height: 200px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 250px;
+    height: 127px;
+    background-image: url('./imagens/oie_transparent.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    
+}
+main{
+    flex-grow: 1;
+    display: flex;
+}
+
+.conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5vh;
+    background-color: red;
+    //arrumar o texto
+
+
+}
+.conteudo h1{
+    font-size: 50px;
+    text-align: center;
+    color: #f3f370;
+   
+}
+
+.conteudo p{
+    font-size: 40px;
+    width: 80%;
+}
+.conteudo button{
+    height: 80px;
+    width: 300px;
+    background-color: rgb(33, 25, 25);
+    color: white;
+    font-size: 32px;
+}
+.conteudo button{
+    height: 80px;
+    width: 300px;
+    background-color: rgb(41, 34, 34);
+    color: white;
+    font-size: 32px;
+}
+.conteudo .social{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:lightgrey
+}
